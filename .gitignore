@@ -16,6 +16,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+migrations/
 lib64/
 parts/
 sdist/
@@ -54,6 +55,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+.DS_Store
+db.sqlite3
+secret.py
 
 # PyBuilder
 target/
